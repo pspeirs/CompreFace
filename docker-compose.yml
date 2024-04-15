@@ -59,7 +59,7 @@ services:
     image: ${registry}compreface-fe:${FE_VERSION}
     container_name: "compreface-ui"
     ports:
-      - "8000:80"
+      - "5000:5000"
     depends_on:
       - compreface-api
       - compreface-admin
